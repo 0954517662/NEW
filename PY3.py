@@ -11,8 +11,8 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #BOT INI BUAT KALIAN YANG MEMANG MEMBUTUHKAN
-#cl = LineClient()
-cl = LineClient(authToken='Ev5UVHYHVQOE4g3YocS1.N0EmwaQCtH3L5aFPSqWTOq.6rJiumc3gtkhXTpKausP73mujH/NLux5y3EeLkIa23s=')
+cl = LineClient()
+#cl = LineClient(authToken='Ev5UVHYHVQOE4g3YocS1.N0EmwaQCtH3L5aFPSqWTOq.6rJiumc3gtkhXTpKausP73mujH/NLux5y3EeLkIa23s=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -98,12 +98,12 @@ wait = {
     "detectMention":True,
     "Mentiongift":False,
     "Mentionkick":False,
-    "welcomeOn":False,
+    "welcomeOn":True,
     "sticker":False,
     "selfbot":True,
     "unsend":False,
     "mention":"Hayoo ngintip ,ketuaan kan..ngaku hayoo",
-    "Respontag":"ciee nge-Tag gua ,pasti pas ada maunya aja...🙌😂",
+    "Respontag":"แม็คมันหล่อ 😍",
     "welcome":"Nah Calon Tikungan Baru",
     "leave":"NAH LOH BAPER KHAAAN KHAAAN ,KEBANYAKAN DRAMA SIHH..😂",
     "comment":"Like by JEM_BOT",
