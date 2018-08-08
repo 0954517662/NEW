@@ -103,7 +103,7 @@ wait = {
     "selfbot":True,
     "unsend":False,
     "mention":"Hayoo ngintip ,ketuaan kan..ngaku hayoo",
-    "Respontag":"แม็คมันหล่อ 😍",
+    "Respontag":"มีอะไรครับ 😀",
     "welcome":"Nah Calon Tikungan Baru",
     "leave":"NAH LOH BAPER KHAAAN KHAAAN ,KEBANYAKAN DRAMA SIHH..😂",
     "comment":"Like by JEM_BOT",
